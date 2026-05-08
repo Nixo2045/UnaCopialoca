@@ -1,9 +1,13 @@
+import nave.*
+import matrix.* 
 
+describe "Testeos de la Nave " {
 
-describe "group of tests " {
+  test "Los pasajeros de la nave saltan y la vitalidad total pasa a ser 12" {
 
-  test "test 01" {
-    assert.equals(100, 50+50)
+    nave.saltar()
+
+    assert.equals(12, nave.vitalidadTotalDeLaNave())
   }
 
 }
