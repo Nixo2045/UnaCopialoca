@@ -1,4 +1,4 @@
-object neo {
+object michaelJackson {
     var energia = 100
 
     method energia() = energia
