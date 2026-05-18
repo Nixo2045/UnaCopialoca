@@ -1,5 +1,6 @@
 object michaelJackson {
     var energia = 100
+    var prime = true
 
     method energia() = energia
     method esElegido() = true
